@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima - Previsão e Gráficos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+
+<body>
+  
+
+    <div class="container">
+        <header>
+            <div class="pesq">
+                <input id="pesquisa" placeholder="Digite a cidade" aria-label="Digite a cidade">
+                <button id="pesquisarButton">Pesquisar</button>
+            </div>
+           
+            <div id="SaidaTemperatura">
+                <div id="iconClima"></div>
+                <div id="temperatura">Temperatura: --°C</div>
+            </div>
+        </header>
+
+        <main>
+            <section id="SaidaGrafica">
+                <canvas id="graficoDia" width="400" height="200"></canvas>
+            </section>
+            <section id="SaidaDias">
+                <canvas id="graficoSemana" width="400" height="200"></canvas>
+            </section>
+        </main>
+    </div>
+
+    <script src="interaction.js"></script>
+</body>
+</html>

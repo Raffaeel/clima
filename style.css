@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(22, 55, 109, 0.884);
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* melhor para ver o que está sendo renderizado */
+}
+
+.pesq {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#temperatura {
+    display: flex;
+    justify-content: center;
+    font-size: 24px; /* maior e mais visível */
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    color: white;
+}
+
+#iconClima {
+    display: flex;
+    justify-content: center;
+    font-size: 48px; /* maior para o emoji ficar bonito */
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    
+}
