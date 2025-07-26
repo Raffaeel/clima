@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(22, 55, 109, 0.884);
+  background: linear-gradient(to right,#000080,#000080 ,#9400D3 ,#9932CC );
     margin: 0;
     padding: 0;
     overflow: auto; /* melhor para ver o que está sendo renderizado */
@@ -8,8 +8,31 @@ body {
 .pesq {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 115px;
+    
 }
+
+#pesquisa{
+
+     border-radius:55px;
+     width:385px;
+    height: 25px;
+background-color: transparent;
+color:white;
+border-color:#000080 ,#9400D3 ,#9932CC ;
+border: 3%;
+}
+#pesquisarButton{border-radius:55px;
+     width:85px;
+    height: 28px;
+  background-color: transparent;
+   border-color:#9400D3;
+   border: 5%;
+}
+
+
+
+
 
 #temperatura {
     display: flex;
